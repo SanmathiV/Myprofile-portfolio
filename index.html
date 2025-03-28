@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet"href="Style.css">
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <h1>SANMATHI VISWANATHAN</h1><BR>
+            <p>Web Developer | Designer | Innovator</p>
+            <button class="btn" onclick="toggleMode()"> Dark/Light Mode</button>
+        </div>
+        <img src="Me.jpg" alt="Sanmathi V" class="profile-img">
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <p>HELLO WORLD! I'm a technology enthusiast and a victim of fascination and curiosity. This makes me seek new techy food for my brain. Anything that involves brainstorming is my favorite dish.Tech-savvy individual with a thirst for knowledge, passionate about exploring new technologies,
+            collaborating on innovative projects, and pushing the boundaries of what's possible. I'm excited to
+            contribute my skills and enthusiasm to a dynamic and forward-thinking organization.</p><br>
+            <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Interactive Quiz Application</h3>
+                    <p>The Interactive Quiz Application is a web-based project designed to engage users in a fun and competitive learning environment. Built using HTML, CSS, JavaScript, and Firebase.</p>
+                    <a href="https://sanmathiv.github.io/Quizzz/" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>HotelRoom Booking Portfolio</h3>
+                    <p>User-friendly hotel room booking system designed to simplify the booking process for customers.This
+project showcases my expertise in design and development skills.</p>
+                    <a href=" https://lucent-khapse-56ffc5.netlify.app/" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Blockchain & Cloud Integrated Ration System</h3>
+                    <p>Blockchain-based solution designed to track ration goods, ensure proper inventory management, and notify beneficiaries about their entitlement and usage.</p>
+              </div>
+              <div class="project-card">
+                <h3>IoT-Enhanced Underground Cable Fault Detector</h3>
+                <p>Automated detection of underground cable faults using advanced sensors and algorithms. Reduced manual labor and increased safety in fault detection process.</p>          </div>
+            </div>
+            
+        </section>
+        <section id="skills" class="skills">
+            <h2>Skills</h2><br>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React.js & Firebase</li>
+                <li>Frontend Development</li>
+                <li>UI/UX Design</li>
+                <li>Java & SQL</li>
+                <li>Blockchain & Cloud Computing</li>
+            </ul>
+        </section><br>
+         <section id="contact">
+            <h2>Contact</h2>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/sanmathiv" target="_blank"><img src="linkedin-logo.png" width="45" height="45"></a>
+                <a href="https://github.com/sanmathiv" target="_blank"><img src="Github Logo.png" width="45" height="45" ></a>
+                <a href="mailto:sanmathisan2003@gmail.com"><img src="Mail Logo.png" width="45" height="45"></a>
+            </div>
+        </section>
+        <a href="SANMATHI V_DEVELOPER_RESUME.pdf" download>
+            <button class="btn">Download Resume</button>
+        </a>
+    </div>
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("light-mode");
+        }
+    </script>
+</body>
+</html>
